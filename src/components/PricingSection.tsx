@@ -71,6 +71,7 @@ export const PricingSection = () => {
                   {/* Price */}
                   <div className="mb-8">
                     <div className="flex items-center justify-center lg:justify-start gap-4 mb-4">
+                      <span className="text-2xl text-muted-foreground line-through">R$ 197</span>
                       <span className="text-5xl font-bold text-secondary">R$ 37</span>
                     </div>
                     <p className="text-sm text-muted-foreground">
