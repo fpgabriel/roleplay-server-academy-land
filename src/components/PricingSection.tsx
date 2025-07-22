@@ -92,7 +92,12 @@ export const PricingSection = () => {
                   </div>
 
                   {/* CTA */}
-                  <Button variant="cta" size="xl" className="w-full group mb-4">
+                  <Button 
+                    variant="cta" 
+                    size="xl" 
+                    className="w-full group mb-4"
+                    onClick={() => window.open('https://pay.kirvano.com/3da8d7a3-0950-483a-9518-82fdea040a43', '_blank')}
+                  >
                     <Crown className="w-5 h-5 mr-2" />
                     Garantir Minha Vaga Agora
                     <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
