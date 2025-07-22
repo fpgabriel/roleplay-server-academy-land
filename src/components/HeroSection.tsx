@@ -61,11 +61,27 @@ export const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="xl" className="group">
+            <Button 
+              variant="hero" 
+              size="xl" 
+              className="group"
+              onClick={() => {
+                const pricingSection = document.querySelector('[data-section="pricing"]');
+                pricingSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Comprar Agora
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="outline" size="xl" className="border-primary/20 bg-card/20 backdrop-blur hover:bg-primary/10">
+            <Button 
+              variant="outline" 
+              size="xl" 
+              className="border-primary/20 bg-card/20 backdrop-blur hover:bg-primary/10"
+              onClick={() => {
+                const vslSection = document.querySelector('[data-section="vsl"]');
+                vslSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Ver Conteúdo
             </Button>
           </div>
