@@ -72,12 +72,11 @@ export const HeroSection = () => {
 
           {/* Price */}
           <div className="mt-8 text-center">
-            <p className="text-muted-foreground mb-2">Por apenas</p>
+            <p className="text-muted-foreground mb-2">Acesso vitalício por apenas</p>
             <div className="flex items-center justify-center gap-4">
-              <span className="text-3xl text-muted-foreground line-through">R$ 497</span>
-              <span className="text-5xl font-bold text-secondary">R$ 197</span>
+              <span className="text-5xl font-bold text-secondary">R$ 37</span>
             </div>
-            <p className="text-sm text-muted-foreground mt-2">Oferta limitada - Termina em breve!</p>
+            <p className="text-sm text-muted-foreground mt-2">✅ Pagamento único - Acesso para sempre!</p>
           </div>
         </div>
       </div>

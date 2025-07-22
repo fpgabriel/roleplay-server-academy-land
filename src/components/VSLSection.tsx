@@ -38,11 +38,10 @@ export const VSLSection = () => {
               Viu como é simples? Comece agora mesmo!
             </p>
             <div className="flex items-center justify-center gap-4">
-              <span className="text-2xl text-muted-foreground line-through">R$ 497</span>
-              <span className="text-4xl font-bold text-secondary">R$ 197</span>
+              <span className="text-4xl font-bold text-secondary">R$ 37</span>
             </div>
             <p className="text-sm text-muted-foreground mt-2">
-              ⚡ Oferta por tempo limitado
+              ✅ Acesso vitalício - Pagamento único
             </p>
           </div>
         </div>

@@ -71,12 +71,11 @@ export const PricingSection = () => {
                   {/* Price */}
                   <div className="mb-8">
                     <div className="flex items-center justify-center lg:justify-start gap-4 mb-4">
-                      <span className="text-2xl text-muted-foreground line-through">R$ 497</span>
-                      <span className="text-5xl font-bold text-secondary">R$ 197</span>
+                      <span className="text-5xl font-bold text-secondary">R$ 37</span>
                     </div>
                     <p className="text-sm text-muted-foreground">
                       <Clock className="w-4 h-4 inline mr-1" />
-                      Oferta válida por tempo limitado
+                      Acesso vitalício - Pagamento único
                     </p>
                   </div>
 
