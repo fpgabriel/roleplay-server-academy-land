@@ -67,7 +67,7 @@ export const HeroSection = () => {
               className="group"
               onClick={() => {
                 const pricingSection = document.querySelector('[data-section="pricing"]');
-                pricingSection?.scrollIntoView({ behavior: 'smooth' });
+                pricingSection?.scrollIntoView({ behavior: 'smooth', block: 'center' });
               }}
             >
               Comprar Agora
