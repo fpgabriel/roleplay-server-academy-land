@@ -85,31 +85,6 @@ export const FAQSection = () => {
             ))}
           </Accordion>
 
-          {/* Still have questions? */}
-          <div className="text-center mt-12">
-            <div className="bg-card/20 backdrop-blur border border-primary/20 rounded-2xl p-8">
-              <h3 className="text-2xl font-bold mb-4">Ainda tem dúvidas?</h3>
-              <p className="text-muted-foreground mb-6">
-                Nossa equipe está pronta para ajudar! Entre em contato conosco.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="https://discord.gg/exemplo" 
-                  className="inline-flex items-center justify-center gap-2 bg-primary/10 hover:bg-primary/20 border border-primary/20 rounded-lg px-6 py-3 transition-colors"
-                >
-                  <HelpCircle className="w-4 h-4" />
-                  Discord da Comunidade
-                </a>
-                <a 
-                  href="mailto:suporte@exemplo.com" 
-                  className="inline-flex items-center justify-center gap-2 bg-secondary/10 hover:bg-secondary/20 border border-secondary/20 rounded-lg px-6 py-3 transition-colors"
-                >
-                  <HelpCircle className="w-4 h-4" />
-                  Email de Suporte
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
