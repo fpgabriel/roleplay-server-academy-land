@@ -17,7 +17,7 @@ export const VSLSection = () => {
           <div className="relative aspect-video w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-elegant bg-card/10 backdrop-blur border border-primary/20">
             {/* YouTube Embed */}
             <iframe
-              src="https://www.youtube.com/embed/7L30O2-Z8zY"
+              src="https://www.youtube.com/embed/zpwCmlzYO9c"
               title="VSL - Como Criar Servidor de RP no GTA V"
               className="w-full h-full"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
