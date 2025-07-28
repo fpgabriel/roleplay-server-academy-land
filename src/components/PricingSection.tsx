@@ -51,7 +51,7 @@ export const PricingSection = () => {
         <div className="max-w-4xl mx-auto">
           <Card className="bg-gradient-card border-2 border-primary/30 hover:border-primary/50 transition-all duration-300 shadow-card-glow relative overflow-hidden">
             {/* Popular Badge */}
-            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
               <Badge className="bg-gradient-hero text-primary-foreground px-6 py-2 text-sm font-bold">
                 MAIS VENDIDO
               </Badge>
